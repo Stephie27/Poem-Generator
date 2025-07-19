@@ -3,43 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        writinig poetry
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/Stephie27" target="_blank"
-        >Stephanie Yoshwa</a
-      >
-      and is
-      <a href="https://github.com/Stephie27/Poem-Generator" target="_blank"
-        >open sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://yoshwa-poem-generator.netlify.app/">Netlify</a>
-    </footer>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="topic"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          writinig poetry
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/Stephie27" target="_blank"
+          >Stephanie Yoshwa</a
+        >
+        and is
+        <a href="https://github.com/Stephie27/Poem-Generator" target="_blank"
+          >open sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://yoshwa-poem-generator.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
