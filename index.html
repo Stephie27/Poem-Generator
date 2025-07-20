@@ -24,23 +24,23 @@
       </header>
 
       <main>
-        <form action="" id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="topic"
-            id="user-instruction"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem">
-          The poem will go here
-          <br />
-          writinig poetry
+        <div class="form-container">
+          <form action="" id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Haiku"
+              autofocus
+              required
+              autocomplete="off"
+              class="topic"
+              id="user-instruction"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e Water, Flower, sun, food</div>
         </div>
+
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This was coded by
