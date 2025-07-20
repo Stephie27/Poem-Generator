@@ -12,6 +12,8 @@
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -30,6 +32,7 @@
             required
             autocomplete="off"
             class="topic"
+            id="user-instruction"
           />
           <input type="submit" class="submit-button" />
         </form>
